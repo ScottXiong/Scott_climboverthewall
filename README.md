@@ -44,3 +44,25 @@ systemctl enable supervisord
 完成后输入 nohup ssserver -c /etc/shadowsocks/config.json &回车
 现在退出ssh，可以连接ss了
 ```
+
+### 使用root[登陆](https://teddysun.com/342.html)
+```
+wget --no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+chmod +x shadowsocks.sh
+./shadowsocks.sh 2>&1 | tee shadowsocks.log
+```
+```
+Congratulations, Shadowsocks-python server install completed!
+Your Server IP        :your_server_ip
+Your Server Port      :your_server_port
+Your Password         :your_password
+Your Encryption Method:your_encryption_method
+
+Welcome to visit:https://teddysun.com/342.html
+Enjoy it!
+```
+### uninstall
+```
+使用root用户登录，运行以下命令：
+./shadowsocks.sh uninstall
+```
