@@ -66,3 +66,5 @@ Enjoy it!
 使用root用户登录，运行以下命令：
 ./shadowsocks.sh uninstall
 ```
+### client
+- [shadowsocks](https://github.com/shadowsocks/shadowsocks/wiki)
