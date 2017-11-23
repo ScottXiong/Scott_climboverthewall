@@ -66,5 +66,7 @@ Enjoy it!
 使用root用户登录，运行以下命令：
 ./shadowsocks.sh uninstall
 ```
-### client
+### client tools
 - [shadowsocks](https://github.com/shadowsocks/shadowsocks/wiki)
+### [lamp install](https://teddysun.com/410.html)
+
